@@ -50,7 +50,7 @@ app.get('/bad', (req, res) => {
   });
 });
 
-app.get('projects', (res, req) => {
+app.get('/projects', (req, res) => {
   res.render('projects.hbs', {
     pageTitle: 'Projects'
   });
