@@ -51,7 +51,7 @@ app.get('/bad', (req, res) => {
 });
 
 app.get('projects', (res, req) => {
-  res.render('project.hbs', {
+  res.render('projects.hbs', {
     pageTitle: 'Projects'
   });
 })
